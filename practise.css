@@ -1,0 +1,678 @@
+
+
+/* ================= MOBILE RESPONSIVE FIX ================= */
+@media (max-width: 768px) {
+
+  /* ===== NAVBAR FIX ===== */
+  .navbar {
+    padding: 5px 10px !important;
+    min-height: 50px;
+    position: relative !important;
+    background: linear-gradient(90deg, #0f172a, #1e3a8a) !important;
+  }
+  .navbar-collapse {
+        
+        padding: 10px;
+        background: linear-gradient(90deg, #637fc3, #0a2f95) !important;
+       
+    }
+  .navbar-brand {
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  }
+  .navbar-toggler {
+  padding: 3px 6px;
+  font-size: 14px;
+  }
+
+  /* ===== TOPBAR HEIGHT SMALL ===== */
+.container-fluid.bg-dark {
+  padding: 1px 5px !important;   /* height komay */
+}
+
+.container-fluid.bg-dark .row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.container-fluid.bg-dark span {
+  font-size: 14px;  /* text choto */
+  line-height: 1.2;
+}
+
+.container-fluid.bg-dark i {
+  font-size: 13px;  /* icon choto */
+}
+
+/* spacing komano */
+.container-fluid.bg-dark .mr-3 {
+  margin-right: 6px !important;
+}
+
+
+  .navbar-brand h4 {
+    font-size: 14px;
+  }
+
+  .navbar img {
+    height: 50px !important;
+  }
+
+  /* ===== HERO VIDEO FIX ===== */
+  .hero-video {
+    height: auto;
+  }
+
+  .hero-bg-video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+  
+    /* HERO remove */
+    .course-hero {
+        display: none;
+    }
+
+  .btn-hero-primary,
+  .btn-hero-outline {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* ===== ANNOUNCEMENT BAR ===== */
+  .scroll-text {
+    font-size: 12px;
+  }
+
+  /* ===== GRID FIX (VERY IMPORTANT) ===== */
+  .why-grid,
+  .course-grid,
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column */
+    gap: 15px;
+  }
+
+  /* ===== CARD FIX ===== */
+  .why-card,
+  .course-card {
+    padding: 15px;
+  }
+
+  /* ===== IMAGE & VIDEO ===== */
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ===== REVIEW LOGO ===== */
+  .review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .google-logo {
+    width: 80px;
+    margin: 5px;
+  }
+
+  /* ===== GALLERY ===== */
+  .gallery-item {
+    width: 100%;
+  }
+
+  /* ===== CONTACT SECTION ===== */
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  /* ===== MAP FIX (IMPORTANT) ===== */
+  iframe {
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  /* ===== BODY FIX ===== */
+  body {
+    overflow-x: hidden;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .brand-text {
+        font-size: 15px;
+    }
+}
+
+/* ================= MOBILE FULL FIX ================= */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        position: relative !important;
+        background: linear-gradient(90deg, #0f172a, #1e3a8a) !important;
+        
+    }
+    .navbar-brand h4 {
+    font-size: 14px;
+   }
+    .navbar img {
+    height: 50px !important;
+  }
+
+  /* ===== HERO VIDEO FIX ===== */
+  .hero-video {
+    height: auto;
+  }
+
+  .hero-bg-video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  .btn-hero-primary,
+  .btn-hero-outline {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* ===== ANNOUNCEMENT BAR ===== */
+  .scroll-text {
+    font-size: 12px;
+  }
+
+  /* ===== GRID FIX (VERY IMPORTANT) ===== */
+  .why-grid,
+  .course-grid,
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column */
+    gap: 15px;
+  }
+
+  /* ===== CARD FIX ===== */
+  .why-card,
+  .course-card {
+    padding: 15px;
+  }
+
+  /* ===== IMAGE & VIDEO ===== */
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ===== REVIEW LOGO ===== */
+  .review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .google-logo {
+    width: 80px;
+    margin: 5px;
+  }
+
+  /* ===== GALLERY ===== */
+  .gallery-item {
+    width: 100%;
+  }
+
+  /* ===== CONTACT SECTION ===== */
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  /* ===== MAP FIX (IMPORTANT) ===== */
+  iframe {
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  /* ===== BODY FIX ===== */
+  body {
+    overflow-x: hidden;
+  }
+
+
+
+    .navbar-collapse {
+        
+        padding: 10px;
+        background: linear-gradient(90deg, #637fc3, #0a2f95) !important;
+       
+    }
+
+    /* HERO remove */
+    .course-hero {
+        display: none;
+    }
+
+    /* ===== COURSE FIX (MAIN PART) ===== */
+
+    .course-rows,
+    .course-rows.reverse {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .course-img,
+    .courses-box {
+        width: 100% !important;
+    }
+
+    .course-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .courses-box {
+        padding: 15px;
+    }
+
+    /* Text fix */
+    .section-title {
+        font-size: 22px;
+    }
+
+    .courses-box p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Button full width */
+    .btn-hero-primary {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .hero-video {
+        transition: margin-top 0.4s ease;
+      
+    }
+
+    .navbar-collapse.show ~ .hero-video {
+        margin-top: 250px; /* adjust based on menu height */
+    }
+
+}
+
+
+/* ================= MOBILE FULL FIX ================= */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        position: relative !important;
+        background: linear-gradient(90deg, #0f172a, #1e3a8a) !important;
+        
+    }
+    .navbar-brand h4 {
+    font-size: 14px;
+   }
+    .navbar img {
+    height: 50px !important;
+  }
+
+  /* ===== HERO VIDEO FIX ===== */
+  .hero-video {
+    height: auto;
+  }
+
+  .hero-bg-video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  .btn-hero-primary,
+  .btn-hero-outline {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* ===== ANNOUNCEMENT BAR ===== */
+  .scroll-text {
+    font-size: 12px;
+  }
+
+  /* ===== GRID FIX (VERY IMPORTANT) ===== */
+  .why-grid,
+  .course-grid,
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column */
+    gap: 15px;
+  }
+
+  /* ===== CARD FIX ===== */
+  .why-card,
+  .course-card {
+    padding: 15px;
+  }
+
+  /* ===== IMAGE & VIDEO ===== */
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ===== REVIEW LOGO ===== */
+  .review-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .google-logo {
+    width: 80px;
+    margin: 5px;
+  }
+
+  /* ===== GALLERY ===== */
+  .gallery-item {
+    width: 100%;
+  }
+
+  /* ===== CONTACT SECTION ===== */
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  /* ===== MAP FIX (IMPORTANT) ===== */
+  iframe {
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  /* ===== BODY FIX ===== */
+  body {
+    overflow-x: hidden;
+  }
+
+
+
+    .navbar-collapse {
+        
+        padding: 10px;
+        background: linear-gradient(90deg, #637fc3, #0a2f95) !important;
+       
+    }
+
+    /* HERO remove */
+    .course-hero {
+        display: none;
+    }
+
+    /* ===== COURSE FIX (MAIN PART) ===== */
+
+    .course-rows,
+    .course-rows.reverse {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .course-img,
+    .courses-box {
+        width: 100% !important;
+    }
+
+    .course-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .courses-box {
+        padding: 15px;
+    }
+
+    /* Text fix */
+    .section-title {
+        font-size: 22px;
+    }
+
+    .courses-box p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Button full width */
+    .btn-hero-primary {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+@media (max-width: 991px) {
+
+    .hero-content {
+        margin-top: 85px; /* adjust this */
+    }
+
+}
+@media (max-width: 768px) {
+    .review-section {
+        padding: 40px 10px;
+    }
+}
+/* Responsive tweak for mobile */
+@media (max-width: 991px) {
+    .about-section .row {
+        text-align:center;
+    }
+    .about-section .col-lg-6 {
+        margin-bottom: 40px;
+    }
+}
+/* MOBILE */
+@media(max-width:768px){
+    .course-box{
+        padding:20px;
+    }
+
+    .course-box h2{
+        font-size:22px;
+    }
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .course-row{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .course-rows.reverse{
+        flex-direction:column;
+    }
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .about-hero h1{
+    font-size:32px;
+  }
+}
+/* MOBILE */
+@media(max-width:768px){
+    .course-row{
+        flex-direction:column;
+    }
+
+    .course-row.reverse{
+        flex-direction:column;
+    }
+}
+
+/* RESPONSIVE */
+@media(max-width:992px){
+  .course-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:600px){
+  .course-grid{
+    grid-template-columns:1fr;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .google-logo {
+    width: 45%;   /* 2 per row */
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .google-logo {
+    width: 90%;   /* 🔥 full big */
+  }
+}
+
+/************ MOBILE ************/
+@media(max-width:900px){
+
+.why-grid,
+.course-grid,
+.gallery-grid{
+  grid-template-columns:repeat(2,1fr);
+}
+
+.contact-wrapper{
+  grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:500px){
+
+.why-grid,
+.course-grid,
+.gallery-grid{
+  grid-template-columns:1fr;
+}
+
+.hero-title{
+  font-size:32px;
+}
+
+}
+
+
